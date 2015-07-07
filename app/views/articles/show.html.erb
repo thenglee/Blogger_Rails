@@ -6,6 +6,7 @@
 
 <h3>Comments</h3>
 <%= render partial: 'articles/comment', collection: @article.comments %>
-
 <br>
+
+<%= render partial: 'comments/form' %>
 <%= link_to "<< Back to Articles List", articles_path %>
